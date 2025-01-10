@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Second Stitch</title>
+        
+        <!-- CSS für das Styling -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+        
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/644754a314.js" crossorigin="anonymous"></script>
+        
+        <!-- JavaScript für Karussell -->
+        <script src="carousel.js" defer></script>
+    </head>
+    
+<body>
+
+    <!-- header startet hier -->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fa-solid fa-bars"></label>
+        <a href="#" class="logo" onclick="window.location.reload(); return false;">
+            <img src="SecondStitch_hell.png" alt="Logo" class="logo-img">
+            Second Stitch</a>
+            
+        <nav class="navbar">
+            <a href="#Wie funktioniert's?">Wie funktioniert's?</a>
+            <a href="#Produkte">Produkte</a>
+            <a href="#Über Uns">Über Uns</a>
+            <a href="#Kontakt">Kontakt</a>
+        </nav>
+        <div class="icons">
+            <a class="fa-solid fa-user"></a>
+            <a class="fa-solid fa-heart"></a>
+            <a class="fa-solid fa-cart-shopping"></a>
+        </div>
+    </header>
+    <!-- header endet hier -->
+
+    <!-- home startet hier-->
+     <section class="home" id="home">
+        <div class="content">
+            <h3>Mach mehr aus deinen alten Stoffen</h3>
+            <p>Schicke uns deine alten Textilien und wir verwandeln sie in nachhaltige und einzigartige Produkte.</p>
+            <a class="btn">Jetzt Upcyclen!</a>
+        </div>
+     </section>
+
+	<!-- Wie Funktionierts startet hier -->
+	 <section class="how-it-works" id="Wie funktioniert's?">
+		<h2 class="section-title">Wie funktioniert's?</h2>
+		<div class="steps-container">
+			<div class="step">
+				<div class="step-icon">1</div>
+				<div class="step-image">
+                    <img src="Paket mit Klamotten  .jpg" alt="Klamotten"/>
+                </div>
+				<h3>Deine alten Textilien</h3>
+				<p>Wählen Sie die Stoffe aus, die Sie einsenden möchten, und laden Sie optional Fotos hoch.</p>
+			</div>
+			<div class="step">
+				<div class="step-icon">2</div>
+				<div class="step-image">
+                    <img src="auswahl.jpg" alt="auswahl"/>
+                </div>
+				<h3>Auswahl der Produkte</h3>
+				<p>Wähle aus unserer Kollektion die Produkte aus, die Du aus Deinen alten Stoffen haben möchtest.</p>
+			</div>
+			<div class="step">
+				<div class="step-icon">3</div>
+				<div class="step-image">
+                    <img src="Paket losschicken .jpg" alt="abschicken"/>
+                </div>
+				<h3>Stoffe einsenden</h3>
+				<p>Schicke uns Deine alten Textilien, die Du recyceln möchtest. Wir akzeptieren verschiedene Materialien.</p>
+			</div>
+			<div class="step">
+				<div class="step-icon">4</div>
+				<div class="step-image">
+                    <img src="Paket erhalten.jpg" alt="erhalten"/>
+                </div>
+				<h3>Erhalte dein Paket</h3>
+				<p>Unsere Designer fertigen daraus die gewünschten Produkte und schicken sie Dir direkt nach Hause.</p>
+			</div>
+		</div>
+	</section>
+<!-- Wie Funktionierts endet hier -->
+
+<!-- Produkte startet hier -->
+	<section class="products" id="Produkte">
+    <div class="products-header">
+        <h2 class="section-title">Produkte</h2>
+        <a href="#!" class="discover-all">Alle entdecken</a>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item">
+                <div class="product-image">
+                    <img src="Fischerhut.png" alt="Fischerhut" />
+                </div>
+                <h3>Fischerhut</h3>
+                <p>4,99 €</p>
+            </div>
+            <div class="carousel-item">
+                <div class="product-image">
+                    <img src="Stillkissen.png" alt="Stillkissen" />
+                </div>
+                <h3>Stillkissen</h3>
+                <p>8,99 €</p>
+            </div>
+            <div class="carousel-item">
+                <div class="product-image">
+                    <img src="Sporttasche.png" alt="Sporttasche" />
+                </div>
+                <h3>Sporttasche</h3>
+                <p>10,99 €</p>
+            </div>
+            <div class="carousel-item">
+                <div class="product-image">
+                    <img src="Flaschenwärmer.png" alt="Flaschenwärmer"/>
+                </div>
+                <h3>Flaschenwärmer</h3>
+                <p>15,99 €</p>
+            </div>
+            <div class="carousel-item">
+                <div class="product-image">
+                    <img src="Kissen.png" alt="Kissenbezug" />
+                </div>
+                <h3>Kissenbezug</h3>
+                <p>12,99 €</p>
+            </div>
+            <div class="carousel-item">
+                <div class="product-image">
+                    <img src="Bauchtasche aus buntem stoff .jpg" alt="Bauchtasche" />
+                </div>
+                <h3>Bauchtasche</h3>
+                <p>9,99 €</p>
+            </div>
+        </div>
+        <button class="prev-btn">❮</button>
+        <button class="next-btn">❯</button>
+    </div>
+</section>
+<!-- Produkte endet hier -->
+
+<!-- Kundenstimmmen startet hier -->
+<section class="testimonials" id="Kundenstimmen">
+    <h2 class="section-title">Das sagen unsere Kunden</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <div class="testimonial-avatar">
+                <img src="Anna.png" alt="Anna"/>
+            </div>
+            <p class="testimonial-text">
+                „Der ganze Prozess war super einfach, und das Ergebnis hat mich wirklich überzeugt! Meine Stoffe wurden perfekt in das Produkt integriert, und man sieht, dass hier echtes Handwerk dahintersteckt. Ein tolles Konzept, das nicht nur umweltfreundlich ist, sondern auch richtig stilvoll.“
+            </p>
+            <p class="testimonial-author">- Anna S.</p>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-avatar">
+                <img src="Marc.png" alt="Marc"/>
+            </div>
+            <p class="testimonial-text">
+                „Ich wollte meiner Schwester ein besonderes Geschenk machen und fand die Idee des Upcyclings perfekt. Das Team hat ihre alten Textilien in ein einzigartiges Produkt verwandelt, das sie absolut begeistert hat. Ein wirklich toller, kreativer Service!“
+            </p>
+            <p class="testimonial-author">- Marc L.</p>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-avatar">
+                <img src="Lisa.png" alt="Lisa"/>
+            </div>
+            <p class="testimonial-text">
+                „Super Service und tolles Endprodukt. Nachhaltigkeit, die sich sehen lassen kann!“
+            </p>
+            <p class="testimonial-author">- Lisa B.</p>
+        </div>
+    </div>
+</section>
+<!-- Kundenstimmmen endet hier -->
+
+<!-- CTA startet hier -->
+<section class="cta-section">
+    <h2 class="cta-title">Bereit, deinen Stoffen ein neues Leben zu geben?</h2>
+    <button class="cta-button">Jetzt loslegen!</button>
+</section>
+
+<!-- CTA endet hier -->
+
+<!-- FAQ startet hier -->
+<section class="faq-section" id="FAQ">
+    <h2 class="section-title">Häufig gestellte Fragen (FAQ)</h2>
+    <div class="faq-item">
+        <button class="faq-question">
+            Was passiert mit meinen eingesendeten Stoffen? <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+            Deine eingesendeten Stoffe werden sorgfältig geprüft und anschließend in das gewünschte Produkt integriert. Wir verwenden nachhaltige und handwerkliche Methoden, um die besten Ergebnisse zu erzielen.
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">
+            Welche Materialien kann ich einsenden? <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+            Wir akzeptieren verschiedene Materialien wie Baumwolle, Leinen, Denim und andere Textilien. Wenn du unsicher bist, kontaktiere uns einfach vorab!
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">
+            Wie lange dauert die Produktion? <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+            Die Produktionszeit hängt vom gewünschten Produkt und der Auftragslage ab. In der Regel dauert es 2-3 Wochen, bis du dein fertiges Produkt erhältst.
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question">
+            Was kostet der Service? <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+            Die Preise variieren je nach Produkt. Eine vollständige Preisliste findest du in unserem Shop-Bereich.
+        </div>
+    </div>
+</section>
+<!-- FAQ endet hier -->
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Linksbündige Inhalte -->
+        <div class="footer-left">
+            <div class="footer-links">
+                <span class="footer-title">Kontakt</span>
+                <span class="footer-title">Support</span>
+                <span class="footer-title">Newsletter</span>
+            </div>
+            <div class="footer-links">
+                <span class="footer-subtext">Impressum</span>
+                <span class="footer-subtext">Datenschutz</span>
+                <span class="footer-subtext">AGB</span>
+                <span class="footer-subtext">Cookie-Richtlinien</span>
+            </div>
+        </div>
+
+        <!-- Rechtsbündige Inhalte -->
+        <div class="footer-right">
+            <p class="footer-inspiration-title">Für mehr Inspirationen:</p>
+            <div class="footer-social-icons">
+                <a class="fa-brands fa-facebook"></a>
+                <a class="fa-brands fa-instagram"></a>
+                <a class="fa-brands fa-pinterest"></a>
+                <a class="fa-brands fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
